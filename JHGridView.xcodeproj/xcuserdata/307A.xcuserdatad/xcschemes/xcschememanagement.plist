@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>JHGridViewDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>2E5F2FCA1DB1004100433DDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E5F2FE81DB1006500433DDE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

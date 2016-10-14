@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2E5F2FCA1DB1004100433DDE"
-               BuildableName = "JHGridView.app"
-               BlueprintName = "JHGridView"
+               BlueprintIdentifier = "2E5F2FE81DB1006500433DDE"
+               BuildableName = "JHGridViewDemo.app"
+               BlueprintName = "JHGridViewDemo"
                ReferencedContainer = "container:JHGridView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E5F2FCA1DB1004100433DDE"
-            BuildableName = "JHGridView.app"
-            BlueprintName = "JHGridView"
+            BlueprintIdentifier = "2E5F2FE81DB1006500433DDE"
+            BuildableName = "JHGridViewDemo.app"
+            BlueprintName = "JHGridViewDemo"
             ReferencedContainer = "container:JHGridView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E5F2FCA1DB1004100433DDE"
-            BuildableName = "JHGridView.app"
-            BlueprintName = "JHGridView"
+            BlueprintIdentifier = "2E5F2FE81DB1006500433DDE"
+            BuildableName = "JHGridViewDemo.app"
+            BlueprintName = "JHGridViewDemo"
             ReferencedContainer = "container:JHGridView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2E5F2FCA1DB1004100433DDE"
-            BuildableName = "JHGridView.app"
-            BlueprintName = "JHGridView"
+            BlueprintIdentifier = "2E5F2FE81DB1006500433DDE"
+            BuildableName = "JHGridViewDemo.app"
+            BlueprintName = "JHGridViewDemo"
             ReferencedContainer = "container:JHGridView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

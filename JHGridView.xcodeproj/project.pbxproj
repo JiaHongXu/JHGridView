@@ -7,29 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E5F2FD01DB1004100433DDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F2FCF1DB1004100433DDE /* main.m */; };
-		2E5F2FD31DB1004100433DDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F2FD21DB1004100433DDE /* AppDelegate.m */; };
-		2E5F2FD61DB1004100433DDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F2FD51DB1004100433DDE /* ViewController.m */; };
-		2E5F2FD91DB1004100433DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F2FD71DB1004100433DDE /* Main.storyboard */; };
-		2E5F2FDB1DB1004100433DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F2FDA1DB1004100433DDE /* Assets.xcassets */; };
-		2E5F2FDE1DB1004100433DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F2FDC1DB1004100433DDE /* LaunchScreen.storyboard */; };
+		2E5F2FED1DB1006500433DDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F2FEC1DB1006500433DDE /* main.m */; };
+		2E5F2FF01DB1006500433DDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F2FEF1DB1006500433DDE /* AppDelegate.m */; };
+		2E5F2FF31DB1006500433DDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F2FF21DB1006500433DDE /* ViewController.m */; };
+		2E5F2FF81DB1006500433DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F2FF71DB1006500433DDE /* Assets.xcassets */; };
+		2E5F2FFB1DB1006500433DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5F2FF91DB1006500433DDE /* LaunchScreen.storyboard */; };
+		2E5F30031DB1010C00433DDE /* JHGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F30011DB1010C00433DDE /* JHGridView.m */; };
+		2E5F30071DB1013E00433DDE /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F30061DB1013E00433DDE /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E5F2FCB1DB1004100433DDE /* JHGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E5F2FCF1DB1004100433DDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E5F2FD11DB1004100433DDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2E5F2FD21DB1004100433DDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E5F2FD41DB1004100433DDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E5F2FD51DB1004100433DDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2E5F2FD81DB1004100433DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E5F2FDA1DB1004100433DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2E5F2FDD1DB1004100433DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2E5F2FDF1DB1004100433DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5F2FE91DB1006500433DDE /* JHGridViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHGridViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5F2FEC1DB1006500433DDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E5F2FEE1DB1006500433DDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E5F2FEF1DB1006500433DDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E5F2FF11DB1006500433DDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E5F2FF21DB1006500433DDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E5F2FF71DB1006500433DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E5F2FFA1DB1006500433DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E5F2FFC1DB1006500433DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5F30011DB1010C00433DDE /* JHGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHGridView.m; path = JHGridView/JHGridView.m; sourceTree = "<group>"; };
+		2E5F30021DB1010C00433DDE /* JHGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHGridView.h; path = JHGridView/JHGridView.h; sourceTree = "<group>"; };
+		2E5F30051DB1013E00433DDE /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		2E5F30061DB1013E00433DDE /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E5F2FC81DB1004100433DDE /* Frameworks */ = {
+		2E5F2FE61DB1006500433DDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +46,8 @@
 		2E5F2FC21DB1004100433DDE = {
 			isa = PBXGroup;
 			children = (
-				2E5F2FCD1DB1004100433DDE /* JHGridView */,
+				2E5F30001DB100AF00433DDE /* JHGridView */,
+				2E5F2FEA1DB1006500433DDE /* JHGridViewDemo */,
 				2E5F2FCC1DB1004100433DDE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,53 +55,71 @@
 		2E5F2FCC1DB1004100433DDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E5F2FCB1DB1004100433DDE /* JHGridView.app */,
+				2E5F2FE91DB1006500433DDE /* JHGridViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E5F2FCD1DB1004100433DDE /* JHGridView */ = {
+		2E5F2FEA1DB1006500433DDE /* JHGridViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2E5F2FD11DB1004100433DDE /* AppDelegate.h */,
-				2E5F2FD21DB1004100433DDE /* AppDelegate.m */,
-				2E5F2FD41DB1004100433DDE /* ViewController.h */,
-				2E5F2FD51DB1004100433DDE /* ViewController.m */,
-				2E5F2FD71DB1004100433DDE /* Main.storyboard */,
-				2E5F2FDA1DB1004100433DDE /* Assets.xcassets */,
-				2E5F2FDC1DB1004100433DDE /* LaunchScreen.storyboard */,
-				2E5F2FDF1DB1004100433DDE /* Info.plist */,
-				2E5F2FCE1DB1004100433DDE /* Supporting Files */,
+				2E5F30041DB1011700433DDE /* TestBeans */,
+				2E5F2FEE1DB1006500433DDE /* AppDelegate.h */,
+				2E5F2FEF1DB1006500433DDE /* AppDelegate.m */,
+				2E5F2FF11DB1006500433DDE /* ViewController.h */,
+				2E5F2FF21DB1006500433DDE /* ViewController.m */,
+				2E5F2FF71DB1006500433DDE /* Assets.xcassets */,
+				2E5F2FF91DB1006500433DDE /* LaunchScreen.storyboard */,
+				2E5F2FFC1DB1006500433DDE /* Info.plist */,
+				2E5F2FEB1DB1006500433DDE /* Supporting Files */,
 			);
-			path = JHGridView;
+			path = JHGridViewDemo;
 			sourceTree = "<group>";
 		};
-		2E5F2FCE1DB1004100433DDE /* Supporting Files */ = {
+		2E5F2FEB1DB1006500433DDE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2E5F2FCF1DB1004100433DDE /* main.m */,
+				2E5F2FEC1DB1006500433DDE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E5F30001DB100AF00433DDE /* JHGridView */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F30011DB1010C00433DDE /* JHGridView.m */,
+				2E5F30021DB1010C00433DDE /* JHGridView.h */,
+			);
+			name = JHGridView;
+			sourceTree = "<group>";
+		};
+		2E5F30041DB1011700433DDE /* TestBeans */ = {
+			isa = PBXGroup;
+			children = (
+				2E5F30051DB1013E00433DDE /* TestObject.h */,
+				2E5F30061DB1013E00433DDE /* TestObject.m */,
+			);
+			name = TestBeans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E5F2FCA1DB1004100433DDE /* JHGridView */ = {
+		2E5F2FE81DB1006500433DDE /* JHGridViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E5F2FE21DB1004100433DDE /* Build configuration list for PBXNativeTarget "JHGridView" */;
+			buildConfigurationList = 2E5F2FFD1DB1006500433DDE /* Build configuration list for PBXNativeTarget "JHGridViewDemo" */;
 			buildPhases = (
-				2E5F2FC71DB1004100433DDE /* Sources */,
-				2E5F2FC81DB1004100433DDE /* Frameworks */,
-				2E5F2FC91DB1004100433DDE /* Resources */,
+				2E5F2FE51DB1006500433DDE /* Sources */,
+				2E5F2FE61DB1006500433DDE /* Frameworks */,
+				2E5F2FE71DB1006500433DDE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JHGridView;
-			productName = JHGridView;
-			productReference = 2E5F2FCB1DB1004100433DDE /* JHGridView.app */;
+			name = JHGridViewDemo;
+			productName = JHGridViewDemo;
+			productReference = 2E5F2FE91DB1006500433DDE /* JHGridViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,9 +131,9 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "徐嘉宏";
 				TargetAttributes = {
-					2E5F2FCA1DB1004100433DDE = {
+					2E5F2FE81DB1006500433DDE = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 6Y694Y7JV9;
+						DevelopmentTeam = 63F2CDCY4B;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,50 +151,43 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E5F2FCA1DB1004100433DDE /* JHGridView */,
+				2E5F2FE81DB1006500433DDE /* JHGridViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2E5F2FC91DB1004100433DDE /* Resources */ = {
+		2E5F2FE71DB1006500433DDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5F2FDE1DB1004100433DDE /* LaunchScreen.storyboard in Resources */,
-				2E5F2FDB1DB1004100433DDE /* Assets.xcassets in Resources */,
-				2E5F2FD91DB1004100433DDE /* Main.storyboard in Resources */,
+				2E5F2FFB1DB1006500433DDE /* LaunchScreen.storyboard in Resources */,
+				2E5F2FF81DB1006500433DDE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E5F2FC71DB1004100433DDE /* Sources */ = {
+		2E5F2FE51DB1006500433DDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E5F2FD61DB1004100433DDE /* ViewController.m in Sources */,
-				2E5F2FD31DB1004100433DDE /* AppDelegate.m in Sources */,
-				2E5F2FD01DB1004100433DDE /* main.m in Sources */,
+				2E5F2FF31DB1006500433DDE /* ViewController.m in Sources */,
+				2E5F2FF01DB1006500433DDE /* AppDelegate.m in Sources */,
+				2E5F30071DB1013E00433DDE /* TestObject.m in Sources */,
+				2E5F30031DB1010C00433DDE /* JHGridView.m in Sources */,
+				2E5F2FED1DB1006500433DDE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2E5F2FD71DB1004100433DDE /* Main.storyboard */ = {
+		2E5F2FF91DB1006500433DDE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2E5F2FD81DB1004100433DDE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2E5F2FDC1DB1004100433DDE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E5F2FDD1DB1004100433DDE /* Base */,
+				2E5F2FFA1DB1006500433DDE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -267,26 +283,26 @@
 			};
 			name = Release;
 		};
-		2E5F2FE31DB1004100433DDE /* Debug */ = {
+		2E5F2FFE1DB1006500433DDE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6Y694Y7JV9;
-				INFOPLIST_FILE = JHGridView/Info.plist;
+				DEVELOPMENT_TEAM = 63F2CDCY4B;
+				INFOPLIST_FILE = JHGridViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiahong.JHGridView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiahong.JHGridViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		2E5F2FE41DB1004100433DDE /* Release */ = {
+		2E5F2FFF1DB1006500433DDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6Y694Y7JV9;
-				INFOPLIST_FILE = JHGridView/Info.plist;
+				DEVELOPMENT_TEAM = 63F2CDCY4B;
+				INFOPLIST_FILE = JHGridViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jiahong.JHGridView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiahong.JHGridViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -303,11 +319,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E5F2FE21DB1004100433DDE /* Build configuration list for PBXNativeTarget "JHGridView" */ = {
+		2E5F2FFD1DB1006500433DDE /* Build configuration list for PBXNativeTarget "JHGridViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E5F2FE31DB1004100433DDE /* Debug */,
-				2E5F2FE41DB1004100433DDE /* Release */,
+				2E5F2FFE1DB1006500433DDE /* Debug */,
+				2E5F2FFF1DB1006500433DDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

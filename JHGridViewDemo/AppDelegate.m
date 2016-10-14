@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  JHGridView
+//  JHGridViewDemo
 //
 //  Created by 307A on 2016/10/14.
-//  Copyright © 2016年 徐嘉宏. All rights reserved.
+//  Copyright © 2016年 Jiahong Xu. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ViewController *viewController = [[ViewController alloc] init];
+    viewController.view.backgroundColor = [UIColor whiteColor];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = viewController;
+    self.window.windowLevel = UIWindowLevelNormal;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
