@@ -87,4 +87,8 @@
     }
 }
 
+- (UIFont *)fontForTitleAtIndex:(long)index{
+    return [UIFont systemFontOfSize:20];
+}
+
 @end

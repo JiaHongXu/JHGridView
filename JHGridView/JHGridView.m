@@ -75,6 +75,7 @@
             UILabel *titleLbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
             titleLbl.text = [_titles objectAtIndex:i];
             titleLbl.textColor = [self textColorForTitleAtIndex:i];
+            [titleLbl setFont:[self fontSizeForTitleAtIndex:i]];
             [self applyAlignmentTypeFor:titleLbl];
             [titleView addSubview:titleLbl];
             [_backTitleScrollView addSubview:titleView];
@@ -106,6 +107,7 @@
             UILabel *titleLbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
             titleLbl.text = [_titles objectAtIndex:i];
             titleLbl.textColor = [self textColorForTitleAtIndex:i];
+            [titleLbl setFont:[self fontSizeForTitleAtIndex:i]];
             [self applyAlignmentTypeFor:titleLbl];
             [titleView addSubview:titleLbl];
             [_backScrollView addSubview:titleView];
@@ -179,6 +181,7 @@
     gridIndex.row = indexPath.row;
     cell.backgroundColor = [self backgroundColorForGridAtGridIndex:gridIndex];
     cell.textLabel.textColor = [self textColorForGridAtGridIndex:gridIndex];
+    [cell.textLabel setFont:[self fontSizeForGridAtGridIndex:gridIndex]];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
@@ -357,6 +360,21 @@
         return [_delegate textColorForGridAtGridIndex:gridIndex];
     }else{
         return [UIColor whiteColor];
+    }
+}
+- (UIFont *)fontSizeForTitleAtIndex:(long)index{
+    if ([_delegate respondsToSelector:@selector(fontForTitleAtIndex:)]) {
+        return [_delegate fontForTitleAtIndex:index];
+    }else{
+        return [UIFont systemFontOfSize:17];
+    }
+}
+
+- (UIFont *)fontSizeForGridAtGridIndex:(GridIndex)gridIndex{
+    if ([_delegate respondsToSelector:@selector(fontForGridAtGridIndex:)]) {
+        return [_delegate fontForGridAtGridIndex:gridIndex];
+    }else{
+        return [UIFont systemFontOfSize:17];
     }
 }
 

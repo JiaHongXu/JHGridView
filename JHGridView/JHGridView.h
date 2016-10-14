@@ -53,6 +53,10 @@ typedef enum{
 - (UIColor *)textColorForTitleAtIndex:(long)index;
 @optional
 - (UIColor *)textColorForGridAtGridIndex:(GridIndex)gridIndex;
+@optional
+- (UIFont *)fontForTitleAtIndex:(long)index;
+@optional
+- (UIFont *)fontForGridAtGridIndex:(GridIndex)gridIndex;
 @end
 
 @interface JHGridView : UIView
