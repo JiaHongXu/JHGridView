@@ -1,6 +1,7 @@
 # JHGridView
-一个iOS上的可高度自定义的GridView
-
+一个iOS上的可高度自定义的GridView，欢迎Star
+####引用
+简书地址[iOS的GridView表格视图的实现](http://www.jianshu.com/p/a9dddab67fe9)
 ####截图
 ![GridView实现截图（课程表）](http://upload-images.jianshu.io/upload_images/2310484-7d3c9cda212d9a0a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/800)
 ####定义的枚举类型和结构体
