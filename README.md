@@ -1,10 +1,10 @@
 # JHGridView
 一个iOS上的可高度自定义的GridView，欢迎Star
-####引用
+#### 引用
 简书地址[iOS的GridView表格视图的实现](http://www.jianshu.com/p/a9dddab67fe9)
-####截图
+#### 截图
 ![GridView实现截图（课程表）](http://upload-images.jianshu.io/upload_images/2310484-7d3c9cda212d9a0a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/800)
-####定义的枚举类型和结构体
+#### 定义的枚举类型和结构体
 ```
 //use for representing the location in gridview
 typedef struct GridIndex {
@@ -27,7 +27,7 @@ typedef enum{
 }JHGridAlignmentType;
 ```
 分别是用于表示位置坐标的`GridIndex`（类似`NSIndexPath`），用于表示选择样式的`JHGridSelectType`和用于表示对齐方式的`JHGridAlignmentType`
-####可实现的代理方法
+#### 可实现的代理方法
 ```
 @protocol JHGridViewDelegate<NSObject>
 
@@ -69,7 +69,7 @@ typedef enum{
 ```
 用于表示标题栏是否固定，默认为`NO`
 
-####`JHGridView`的方法
+#### `JHGridView` 的方法
 ```
 //init methods
 - (instancetype)initWithFrame:(CGRect)frame;
@@ -79,7 +79,7 @@ typedef enum{
 ```
 第二个方法在需要显示数据的时候调用，传入一个标题（表头行）的`NSString`数组，一堆需要显示用的数据的`model`数组，以及每一列对应`model`中属性名称的`NSString`数组（用于`KVC`赋值）
 
-###使用Demo
+### 使用Demo
 使用该控件时把`JHGridView`目录拖入工程
 如果不需要指定颜色、字体大小、行高列宽以及处理选中事件的可以不实现代理方法
 ```
@@ -163,5 +163,5 @@ NSArray *array = @[
     return [UIFont systemFontOfSize:20];
 }
 ```
-####运行效果
+#### 运行效果
 ![Demo运行截图](http://upload-images.jianshu.io/upload_images/2310484-beaa64c8693f2864.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/400)
